@@ -20,5 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/test', function () {
-    return 'that ko the tin noi';
+    return 'Kiểu gì ấy nhỉ';
 });
